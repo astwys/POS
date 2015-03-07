@@ -1,0 +1,36 @@
+# Buchstabenzuordnung zur Verschlüsselung,
+# enthalten sind nur kleinbuchstaben. 
+# Die entsprechende Zuordnung für Großbuchsaben generiert das Programm autoamtisch.
+#
+# key = value (urspr. Buchstabe  =  Ersatzbuchstabe)
+
+a = d
+b = e
+c = f
+d = g
+e = h
+f = i
+g = j
+h = k
+i = l
+j = m
+k = n
+l = o
+m = p
+n = q
+o = r
+p = s
+q = t
+r = u
+s = v
+t = w
+u = x
+v = y
+w = z
+x = a
+y = b
+z = c
+ä = ö
+ö = ü
+ü = ä
+# ß = ß
