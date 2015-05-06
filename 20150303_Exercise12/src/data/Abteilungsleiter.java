@@ -44,8 +44,8 @@ public class Abteilungsleiter extends Angestellter
 				+ super.toString() + "]";
 	}
 	
-	public void printInfo()
+	public String printInfo()
 	{
-		super.printInfo();
+		return super.printInfo();
 	}
 }

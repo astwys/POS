@@ -1,6 +1,8 @@
 package data;
 
-public abstract class Mitarbeiter 
+import java.io.Serializable;
+
+public abstract class Mitarbeiter implements Serializable
 {
 	protected String name;
 	protected String sozVersNr;
@@ -55,9 +57,9 @@ public abstract class Mitarbeiter
 				+ ", Gehalt=" + berechneGehalt() +"]";
 	}
 	
-	public void printInfo()
+	public String printInfo()
 	{
-		System.out.println(toString());
+		return this.toString();
 	}
 
 	/* (non-Javadoc)

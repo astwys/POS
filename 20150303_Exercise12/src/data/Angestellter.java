@@ -45,8 +45,8 @@ public class Angestellter extends Mitarbeiter
 				+ super.toString() + "]";
 	}
 
-	public void printInfo()
+	public String printInfo()
 	{
-		super.printInfo();
+		return super.printInfo();
 	}
 }
